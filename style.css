@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+header {
+    background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)),url(/image/fise_mtp_bmxfreestyle_pro_finale_JenniferLindini_052922-32.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+}
+
+header nav {
+    background-color: rgb(24, 24, 24);
+}
+
+header nav .container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 90px;
+}
+
+header nav .container h1{
+    margin-left: 10%;
+    color: rgb(184, 184, 184);
+    letter-spacing: 3px;
+}
+
+header nav .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header nav .container .content ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+header nav .container .content ul li{
+    color: rgb(184, 184, 184);
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+header nav .container .content .btn a {
+    background-color: rgb(255, 251, 0);
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+header .logo  {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}  
+
+header .logo img {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+}
+
+header .box-1 {
+    margin-top: 600px;
+    color: white;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+header .box-1 p {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+header .box-1 h1 {
+    letter-spacing: 3px;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+header .box-1 .suite {
+    margin-top: 50px;
+}
+
+header .box-1 .suite a {
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid yellow;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+main .section-1  {
+    border-top: 1px solid rgb(150, 150, 146);
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.section-1 .gauche img {
+    height: 800px;
+}
+
+.section-1 .droite img {
+    height: 800px;
+}
+
+
+
+
+
+
+.img-fixe img {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+main .section-1 .container-2 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80vh;
+}
+
+main .section-1 .container-2 .title-2 {
+    margin: 50px 0 0 150px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(128, 128, 128);
+    width: 80%;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+main .section-1 .container-2 .profil .image-1 img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main .section-1 .container-2 .profil .image-1  {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin-left: 20px;
+    box-shadow: 3px 5px 10px rgb(156, 156, 156) ;
+    min-width: 300px;
+}
+main .section-1 .container-2 .profil .image-1 h1, p {
+    margin: 10px;
+}
+main .section-1 .container-2 .profil .image-1 p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+}
+
+main .section-1 .container-2 .profil .image-1 a {
+    padding: 20px 0 20px 10px;
+}
+
+main .section-1 .container-2 .profil .image-2 img  {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main .section-1 .container-2 .profil .image-2  {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    box-shadow: 3px 5px 10px rgb(156, 156, 156) ;
+    min-width: 300px;
+}
+
+main .section-1 .container-2 .profil .image-2 h1, p {
+    margin: 10px;
+}
+
+main .section-1 .container-2 .profil .image-2 p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+}
+
+main .section-1 .container-2 .profil .image-2 a {
+    padding: 20px 0 20px 10px;
+}
+
+main .section-1 .container-2 .profil .image-3 img  {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main .section-1 .container-2 .profil .image-3  {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    max-width: 400px;
+    min-width: 300px;
+    margin-right: 20px;
+    box-shadow: 3px 5px 10px rgb(156, 156, 156) ;
+}
+
+main .section-1 .container-2 .profil .image-3 h1, p {
+    margin: 10px;
+}
+
+main .section-1 .container-2 .profil .image-3 p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+}
+
+main .section-1 .container-2 .profil .image-3 a {
+    padding: 20px 0 20px 10px;
+}
+
+main .section-1 .container-2 .profil  {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+.section-2 {
+    height: 150vh;
+    margin: 200px 100px 0 100px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.section-2 h1{
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+.section-2 p{
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.section-2 .container-3 {
+    height: 125vh;
+    border-radius: 20px;
+}
+
+
+
+
+.section-2 .container-3 .content-31 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .container-3 .content-31 h1{
+    text-align: center;
+    color: black;
+}
+.section-2 .container-3 .content-31 .debutant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+
+#img-1 {
+    width: 25%;
+    border-radius: 25px;
+}
+
+
+#img-2 {
+    width: 25%;
+    border-radius: 25px;
+}
+
+
+#img-3 {
+    width: 25%;
+    border-radius: 25px;
+}
+
+
